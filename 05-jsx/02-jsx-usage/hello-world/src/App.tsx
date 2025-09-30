@@ -1,12 +1,11 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const name = "Party";
+  const greet = (name:string) => <p>Hello, {name || "Guest"}</p>;
 
   return (
-    <div>
-      Hello, World
-    </div>
+    <div>{greet(name)}</div>
   )
 }
 
