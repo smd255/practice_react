@@ -1,12 +1,17 @@
 // import { useState } from 'react'
 
 function App() {
-  const name = "Party";
-  const greet = (name:string) => <p>Hello, {name || "Guest"}</p>;
+  
+  const list = ["Patty","Rolley","Bobby"]
 
+  // JSX内での繰り返し処理
   return (
-    <div>{greet(name)}</div>
-  )
+    <ul>
+      {list.map((name)=>(
+        <li>Hello,{name}</li>
+      ))}
+    </ul>
+  );
 }
 
 export default App
