@@ -1,8 +1,8 @@
+import Counter from './components/Counter.tsx';
+
 function App() {
   return (
-    <div>
-      Hello, World
-    </div>
+    <Counter />
   );
 }
 
