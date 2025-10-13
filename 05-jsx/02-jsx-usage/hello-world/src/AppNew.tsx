@@ -3,9 +3,12 @@
 import Greet from './components/GreetNew';
 import Summary from './components/Summary';
 import Form from './components/FormNew';
+import TextInput from './components/TextInput';
 
 function App() {
   return (
+    // 見た目やスタイルが必要なら<div>
+    // 余計なタグを増やしたくないなら<>（フラグメント）
     <div className="min-h-screen bg-gray-100 py-8 px-4">
       <div className="max-w-2xl mx-auto bg-white rounded-lg shadow-md p-6">
         <h1 className="text-3xl font-bold text-gray-800 mb-8 text-center">
@@ -24,6 +27,7 @@ function App() {
         </Summary>
       </div>
       <Form selected="fox" />
+      <TextInput />
     </div>
   );
 }
