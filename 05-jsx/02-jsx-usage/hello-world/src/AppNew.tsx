@@ -1,7 +1,8 @@
 // import { useState } from 'react'
 
-import Greet from './components/Greet';
+import Greet from './components/GreetNew';
 import Summary from './components/Summary';
+import Form from './components/FormNew';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           </p>
         </Summary>
       </div>
+      <Form selected="fox" />
     </div>
   );
 }
