@@ -1,9 +1,9 @@
 
-function Counter(){
 
-  return(
-    <h1>
-      Hello,World    
+function Counter() {
+  return (
+    <h1 className="text-4xl text-blue-600 bg-gray-100 p-6 rounded-lg text-center shadow">
+      Hello, World
     </h1>
   );
 }
