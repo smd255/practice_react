@@ -26,7 +26,7 @@ function App() {
           </p>
         </Summary>
       </div>
-      <Form selected="fox" />
+      <Form />
       <TextInput />
     </div>
   );

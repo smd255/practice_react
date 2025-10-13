@@ -20,7 +20,7 @@ function TextInput(){
       {/* テキスト入力欄。参照をinputRefに渡している。 */}
       <input type="text" ref={inputRef} />
       {/* type:ボタンを設定。value:表示名。onClickでクリック時にコールされる関数を設定。 */}
-      <input type="buton" value="フォーカス" onClick={handleClick} />
+      <input type="button" value="フォーカス" onClick={handleClick} />
     </div>
   );
 }
